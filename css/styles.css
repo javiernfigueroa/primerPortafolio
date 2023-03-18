@@ -1,0 +1,128 @@
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  margin: 0;
+}
+
+img {
+  width: 400px;
+  border-radius: 200px;
+  border: 10px solid whitesmoke;
+}
+
+.container {
+  width: 570px;
+  margin: 0 auto;
+}
+
+.bold-text {
+  font-weight: 900;
+  display: block;
+  color: #99d930;
+}
+
+h1 .bold-text {
+  font-size: 80px;
+}
+
+h2 .bold-text {
+  font-size: 60px;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 42px;
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  color: #99d930;
+  font-weight: 900;
+}
+
+a:hover,
+a:focus {
+  color: #131313;
+}
+
+.btn {
+    background-color: #99d930;
+    color: #252525;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #252525;
+    color: #fff;
+}
+
+.small-text {
+  margin-top: 2px;
+  font-size: 16px;
+}
+
+header,
+.about-me,
+.articles {
+  padding: 100px 0;
+}
+
+header {
+  background-color: #d7d7d7;
+}
+
+.about-me {
+  background-color: #fff;
+}
+
+.articles {
+  background-color: #eaf9ff;
+}
+
+.dark-background {
+  color: #fff;
+  background-color: #252525;
+}
+
+.articles a:hover {
+    background-color: #fff;
+    color: #252525;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 300px;
+    }
+    img {
+        width: 300px;
+    }
+}
+
